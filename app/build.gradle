@@ -2,8 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 28
-    
-
 
     defaultConfig {
         applicationId "io.github.angads25.playgroundapplication.app"
@@ -11,8 +9,6 @@ android {
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
-
-
     }
 
     buildTypes {
@@ -21,7 +17,6 @@ android {
            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
        }
     }
-
 }
 
 dependencies {
